@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-09-07T15:46:53.459Z",
+  "generatedAt": "2026-09-21T12:55:09.869Z",
   "sources": [
     {
       "title": "Consulta de Proyectos de Ley",
       "url": "https://proyectosdeley.asambleanacional.gob.ec/report",
-      "discoveredAt": "2026-09-07",
+      "discoveredAt": "2026-09-21",
       "origin": "Asamblea Nacional - leyes aprobadas",
       "status": "requiere_revision"
     },
     {
       "title": "Registro Oficial",
       "url": "https://www.registroficial.gob.ec/",
-      "discoveredAt": "2026-09-07",
+      "discoveredAt": "2026-09-21",
       "origin": "Asamblea Nacional - leyes aprobadas",
       "status": "requiere_revision"
     },
     {
       "title": "REGISTRO OFICIAL",
       "url": "https://www.registroficial.gob.ec/245427-2/",
-      "discoveredAt": "2026-09-07",
+      "discoveredAt": "2026-09-21",
       "origin": "Registro Oficial - índice de legislación",
       "status": "requiere_revision"
     }

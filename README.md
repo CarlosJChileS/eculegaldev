@@ -283,6 +283,8 @@ El catálogo está especializado en proyectos tecnológicos que operan en Ecuado
 
 La respuesta incluye normas y obligaciones por artículo, aplicabilidad, evidencia, brecha, estado, prioridad, exposición, responsable, criterio de cierre y puntajes por cumplimiento legal, seguridad técnica, privacidad, gobierno de datos, tributación, comercio electrónico y gestión documental. Las inferencias se pueden corregir enviando valores explícitos del perfil; esos valores tienen prioridad.
 
+El perfil admite el tipo de operador (`persona_natural`, `sociedad`, `entidad_publica`), sectores como `salud`, `educativo`, `fintech`, `telecomunicaciones` y `seguridad_privada`, y señales operativas como tratamiento de datos, pagos, personal, inteligencia artificial, biometría, potencial tratamiento a gran escala e incidentes. Cada obligación indica si es `aplicable` o `condicional`, la razón de la coincidencia, la información faltante y la evidencia/criterio de cierre. Una condición desconocida no se trata como obligación definitivamente aplicable. Los indicios del repositorio son hipótesis que el usuario debe confirmar.
+
 Los estados y consecuencias regulatorias son conservadores: una obligación sin evidencia no se marca como cumplida, y una consecuencia o sanción ausente del catálogo se devuelve como no documentada y requiere validación profesional. Con persistencia habilitada, el ciclo de gobernanza conserva evidencias, responsables, excepciones e historial para comparar evaluaciones.
 
 - `buscar_normativa`: búsqueda local por título, resumen, etiquetas y ámbito.
@@ -502,7 +504,7 @@ npm run catalog:legal-review
 npm run catalog:download
 ```
 
-`catalog:legal-review` genera `data/legal-review-report.json`, consulta las fuentes registradas y detecta indicios textuales de reformas o derogaciones. Estos indicios nunca cambian automáticamente una norma a vigente, reformada o derogada. Para publicar un estado confirmado, la entrada debe incluir `verification.legalReviewedAt` y `verification.reviewer`; el servidor rechaza el catálogo si faltan.
+`catalog:legal-review` genera `data/legal-review-report.json`, consulta las fuentes registradas y detecta indicios textuales de reformas o derogaciones. Estos indicios nunca cambian automáticamente una norma a vigente, reformada o derogada. Cada estado no pendiente declara su base (`verification.statusBasis`): una revisión jurídica humana con fecha y revisor, o evidencia documental oficial fechada. `legalEffect` separa normas publicadas pendientes de análisis de instrumentos emitidos cuya vigencia depende todavía de publicación oficial. `verificar_vigencia` expone estas dimensiones por separado.
 
 `catalog:download` intenta descargar el documento o página oficial de cada fuente HTTPS registrada en el catálogo. Guarda los archivos accesibles en `data/downloads/` y genera `data/download-manifest.json` con fuente, URL, fecha, HTTP, tipo MIME, tamaño, hash SHA-256 y error detallado cuando corresponde. La descarga está limitada a dominios oficiales `*.gob.ec`, 20 MiB por archivo y 20 segundos por solicitud.
 

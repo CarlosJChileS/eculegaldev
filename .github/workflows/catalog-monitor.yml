@@ -23,6 +23,8 @@ jobs:
       - run: npm run build
       - run: npm run catalog:discover
       - run: npm run catalog:verify
+      - run: npm run catalog:legal-review
+      - run: npm run catalog:coverage
       - name: Proponer actualización del catálogo
         uses: peter-evans/create-pull-request@v7
         with:
@@ -37,6 +39,8 @@ jobs:
           add-paths: |
             data/discovered-sources.json
             data/verification-report.json
+            data/legal-review-report.json
+            data/coverage-report.json
       - name: Publicar informes
         uses: actions/upload-artifact@v4
         with:
@@ -44,4 +48,6 @@ jobs:
           path: |
             data/discovered-sources.json
             data/verification-report.json
+            data/legal-review-report.json
+            data/coverage-report.json
           retention-days: 90

@@ -23,7 +23,7 @@ jobs:
       - run: npm ci
       - run: npm run check
       - run: npm run verify:package
-      - run: npm audit --audit-level=high
+      - run: npm audit --audit-level=moderate
   live-scanner:
     runs-on: windows-latest
     steps:

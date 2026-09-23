@@ -22,7 +22,7 @@ jobs:
       - run: npm run check
       - run: npm run verify:package
       - run: npm run verify:scanners
-      - run: npm audit --audit-level=high
+      - run: npm audit --audit-level=moderate
   package:
     needs: verify
     runs-on: ubuntu-latest

@@ -1,8 +1,42 @@
 {
-  "generatedAt": "2026-09-08T14:13:08.725Z",
-  "checkedAt": "2026-09-08",
+  "generatedAt": "2026-09-23T15:59:32.161Z",
+  "checkedAt": "2026-09-23",
   "warning": "Los indicios automáticos no determinan vigencia jurídica. Requieren revisión humana.",
   "sources": [
+    {
+      "id": "rgpd-ue",
+      "title": "Reglamento (UE) 2016/679 — Reglamento General de Protección de Datos (RGPD)",
+      "currentStatus": "pendiente_verificacion",
+      "recommendedStatus": "pendiente_verificacion",
+      "evidence": [
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+          "officialHost": false
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679",
+          "officialHost": false
+        }
+      ],
+      "indicators": [
+        "indicio_reforma:https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "indicio_derogacion:https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+      ],
+      "missing": [
+        "legalReviewedAt",
+        "reviewer",
+        "reformas_y_derogaciones_exhaustivas",
+        "texto_consolidado",
+        "ambito_de_aplicacion"
+      ],
+      "conclusion": "requiere_revision_juridica"
+    },
     {
       "id": "lopdp",
       "title": "Ley Orgánica de Protección de Datos Personales",
@@ -419,6 +453,496 @@
           "reachable": true,
           "status": 200,
           "finalUrl": "https://spdp.gob.ec/wp-content/uploads/2026/01/04.01.01-SPSP-SPD-2026-0004-R-Norma-general-de-transferencias-signed.pdf",
+          "officialHost": true
+        }
+      ],
+      "indicators": [],
+      "missing": [
+        "legalReviewedAt",
+        "reviewer",
+        "reformas_y_derogaciones_exhaustivas",
+        "texto_consolidado",
+        "ambito_de_aplicacion"
+      ],
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "spdp-gran-escala-2026",
+      "title": "Norma General sobre el Tratamiento de Datos Personales a Gran Escala",
+      "currentStatus": "pendiente_verificacion",
+      "recommendedStatus": "pendiente_verificacion",
+      "evidence": [
+        {
+          "url": "https://www.registroficial.gob.ec/suplemento-no-231/",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.registroficial.gob.ec/suplemento-no-231/",
+          "officialHost": true
+        }
+      ],
+      "indicators": [],
+      "missing": [
+        "legalReviewedAt",
+        "reviewer",
+        "reformas_y_derogaciones_exhaustivas",
+        "texto_consolidado",
+        "ambito_de_aplicacion"
+      ],
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "constitucion-republica",
+      "title": "Constitución de la República del Ecuador",
+      "currentStatus": "pendiente_verificacion",
+      "recommendedStatus": "pendiente_verificacion",
+      "evidence": [
+        {
+          "url": "https://www.asambleanacional.gob.ec/es/contenido/constitucion-de-la-republica-del-ecuador",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.asambleanacional.gob.ec/es/contenido/constitucion-de-la-republica-del-ecuador",
+          "officialHost": true
+        },
+        {
+          "url": "https://www.asambleanacional.gob.ec/sites/default/files/private/asambleanacional/filesasambleanacionalnameuid-29/2018-08-01-constitucion-reformada.pdf",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.asambleanacional.gob.ec/sites/default/files/private/asambleanacional/filesasambleanacionalnameuid-29/2018-08-01-constitucion-reformada.pdf",
+          "officialHost": true
+        }
+      ],
+      "indicators": [
+        "indicio_reforma:https://www.asambleanacional.gob.ec/es/contenido/constitucion-de-la-republica-del-ecuador"
+      ],
+      "missing": [
+        "legalReviewedAt",
+        "reviewer",
+        "reformas_y_derogaciones_exhaustivas",
+        "texto_consolidado",
+        "ambito_de_aplicacion"
+      ],
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "codigo-trabajo",
+      "title": "Código del Trabajo",
+      "currentStatus": "pendiente_verificacion",
+      "recommendedStatus": "pendiente_verificacion",
+      "evidence": [
+        {
+          "url": "https://www.asambleanacional.gob.ec/es/leyes-aprobadas?leyes-aprobadas=All&title=C%C3%B3digo+del+Trabajo",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.asambleanacional.gob.ec/es/leyes-aprobadas?leyes-aprobadas=All&title=C%C3%B3digo+del+Trabajo",
+          "officialHost": true
+        }
+      ],
+      "indicators": [
+        "indicio_reforma:https://www.asambleanacional.gob.ec/es/leyes-aprobadas?leyes-aprobadas=All&title=C%C3%B3digo+del+Trabajo"
+      ],
+      "missing": [
+        "legalReviewedAt",
+        "reviewer",
+        "reformas_y_derogaciones_exhaustivas",
+        "texto_consolidado",
+        "ambito_de_aplicacion"
+      ],
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "codigo-tributario",
+      "title": "Código Tributario y normativa tributaria aplicable a servicios digitales",
+      "currentStatus": "pendiente_verificacion",
+      "recommendedStatus": "pendiente_verificacion",
+      "evidence": [
+        {
+          "url": "https://www.registroficial.gob.ec/",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.registroficial.gob.ec/",
+          "officialHost": true
+        }
+      ],
+      "indicators": [],
+      "missing": [
+        "legalReviewedAt",
+        "reviewer",
+        "reformas_y_derogaciones_exhaustivas",
+        "texto_consolidado",
+        "ambito_de_aplicacion"
+      ],
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "ley-companias",
+      "title": "Ley de Compañías",
+      "currentStatus": "pendiente_verificacion",
+      "recommendedStatus": "pendiente_verificacion",
+      "evidence": [
+        {
+          "url": "https://www.registroficial.gob.ec/",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.registroficial.gob.ec/",
+          "officialHost": true
+        }
+      ],
+      "indicators": [],
+      "missing": [
+        "legalReviewedAt",
+        "reviewer",
+        "reformas_y_derogaciones_exhaustivas",
+        "texto_consolidado",
+        "ambito_de_aplicacion"
+      ],
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "marco-sector-financiero",
+      "title": "Normativa del sector financiero ecuatoriano aplicable a servicios tecnológicos",
+      "currentStatus": "pendiente_verificacion",
+      "recommendedStatus": "pendiente_verificacion",
+      "evidence": [
+        {
+          "url": "https://www.jprf.gob.ec/",
+          "reachable": false,
+          "officialHost": true,
+          "error": "fetch failed"
+        }
+      ],
+      "indicators": [],
+      "missing": [
+        "legalReviewedAt",
+        "reviewer",
+        "reformas_y_derogaciones_exhaustivas",
+        "texto_consolidado",
+        "ambito_de_aplicacion"
+      ],
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "marco-sector-salud",
+      "title": "Normativa del sector salud ecuatoriano aplicable a sistemas de información",
+      "currentStatus": "pendiente_verificacion",
+      "recommendedStatus": "pendiente_verificacion",
+      "evidence": [
+        {
+          "url": "https://www.salud.gob.ec/",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.salud.gob.ec/",
+          "officialHost": true
+        }
+      ],
+      "indicators": [
+        "indicio_reforma:https://www.salud.gob.ec/"
+      ],
+      "missing": [
+        "legalReviewedAt",
+        "reviewer",
+        "reformas_y_derogaciones_exhaustivas",
+        "texto_consolidado",
+        "ambito_de_aplicacion"
+      ],
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "marco-sector-educativo",
+      "title": "Normativa del sector educativo ecuatoriano aplicable a plataformas digitales",
+      "currentStatus": "pendiente_verificacion",
+      "recommendedStatus": "pendiente_verificacion",
+      "evidence": [
+        {
+          "url": "https://educacion.gob.ec/",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://educacion.gob.ec/",
+          "officialHost": true
+        }
+      ],
+      "indicators": [],
+      "missing": [
+        "legalReviewedAt",
+        "reviewer",
+        "reformas_y_derogaciones_exhaustivas",
+        "texto_consolidado",
+        "ambito_de_aplicacion"
+      ],
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "convenio-budapest-ciberdelincuencia",
+      "title": "Convenio sobre la Ciberdelincuencia (Convenio de Budapest)",
+      "currentStatus": "vigente",
+      "recommendedStatus": "pendiente_verificacion",
+      "evidence": [
+        {
+          "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=185",
+          "reachable": false,
+          "status": 403,
+          "finalUrl": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=185",
+          "officialHost": false
+        },
+        {
+          "url": "https://www.asambleanacional.gob.ec/es/system/files/convenio_remitido_por_ejecutivo.pdf",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.asambleanacional.gob.ec/es/system/files/convenio_remitido_por_ejecutivo.pdf",
+          "officialHost": true
+        },
+        {
+          "url": "https://www.asambleanacional.gob.ec/es/noticia/97575-asamblea-nacional-aprobo-el-convenio-sobre",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.asambleanacional.gob.ec/es/noticia/97575-asamblea-nacional-aprobo-el-convenio-sobre",
+          "officialHost": true
+        },
+        {
+          "url": "https://www.cancilleria.gob.ec/2024/12/13/deposito-del-instrumento-de-ratificacion-del-convenio-de-budapest/",
+          "reachable": false,
+          "officialHost": true,
+          "error": "fetch failed"
+        },
+        {
+          "url": "https://www.coe.int/en/web/cybercrime/-/convention-on-cybercrime-ecuador-becomes-the-77th-party-and-peru-signs-the-second-protocol-on-electronic-evidence",
+          "reachable": false,
+          "status": 403,
+          "finalUrl": "https://www.coe.int/en/web/cybercrime/-/convention-on-cybercrime-ecuador-becomes-the-77th-party-and-peru-signs-the-second-protocol-on-electronic-evidence",
+          "officialHost": false
+        },
+        {
+          "url": "https://www.registroficial.gob.ec/registro-oficial-no-13-17/",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.registroficial.gob.ec/registro-oficial-no-13-17/",
+          "officialHost": true
+        }
+      ],
+      "indicators": [
+        "indicio_reforma:https://www.asambleanacional.gob.ec/es/noticia/97575-asamblea-nacional-aprobo-el-convenio-sobre",
+        "indicio_reforma:https://www.registroficial.gob.ec/registro-oficial-no-13-17/"
+      ],
+      "missing": [
+        "legalReviewedAt",
+        "reviewer",
+        "reformas_y_derogaciones_exhaustivas",
+        "texto_consolidado",
+        "ambito_de_aplicacion"
+      ],
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "ley-fortalecimiento-ciberseguridad",
+      "title": "Ley Orgánica para el Fortalecimiento de la Ciberseguridad",
+      "currentStatus": "pendiente_verificacion",
+      "recommendedStatus": "pendiente_verificacion",
+      "evidence": [
+        {
+          "url": "https://www.registroficial.gob.ec/quinto-suplemento-no-290/",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.registroficial.gob.ec/quinto-suplemento-no-290/",
+          "officialHost": true
+        }
+      ],
+      "indicators": [],
+      "missing": [
+        "legalReviewedAt",
+        "reviewer",
+        "reformas_y_derogaciones_exhaustivas",
+        "texto_consolidado",
+        "ambito_de_aplicacion"
+      ],
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "nte-inen-iso-iec-22989-2022",
+      "title": "NTE INEN-ISO/IEC 22989:2022 — Conceptos y terminología de inteligencia artificial",
+      "currentStatus": "pendiente_verificacion",
+      "recommendedStatus": "pendiente_verificacion",
+      "evidence": [
+        {
+          "url": "https://www.registroficial.gob.ec/quinto-suplemento-no-306/",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.registroficial.gob.ec/quinto-suplemento-no-306/",
+          "officialHost": true
+        }
+      ],
+      "indicators": [],
+      "missing": [
+        "legalReviewedAt",
+        "reviewer",
+        "reformas_y_derogaciones_exhaustivas",
+        "texto_consolidado",
+        "ambito_de_aplicacion"
+      ],
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "ley-organica-inteligencia-2025",
+      "title": "Ley Orgánica de Inteligencia",
+      "currentStatus": "pendiente_verificacion",
+      "recommendedStatus": "pendiente_verificacion",
+      "evidence": [
+        {
+          "url": "https://www.registroficial.gob.ec/cuarto-suplemento-no-57/",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.registroficial.gob.ec/cuarto-suplemento-no-57/",
+          "officialHost": true
+        },
+        {
+          "url": "https://www.registroficial.gob.ec/cuarto-suplemento-no-81/",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.registroficial.gob.ec/cuarto-suplemento-no-81/",
+          "officialHost": true
+        }
+      ],
+      "indicators": [],
+      "missing": [
+        "legalReviewedAt",
+        "reviewer",
+        "reformas_y_derogaciones_exhaustivas",
+        "texto_consolidado",
+        "ambito_de_aplicacion"
+      ],
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "reforma-telecomunicaciones-2025",
+      "title": "Ley Orgánica Reformatoria a la Ley Orgánica de Telecomunicaciones",
+      "currentStatus": "pendiente_verificacion",
+      "recommendedStatus": "pendiente_verificacion",
+      "evidence": [
+        {
+          "url": "https://www.registroficial.gob.ec/quinto-suplemento-no-59/",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.registroficial.gob.ec/quinto-suplemento-no-59/",
+          "officialHost": true
+        }
+      ],
+      "indicators": [
+        "indicio_reforma:https://www.registroficial.gob.ec/quinto-suplemento-no-59/"
+      ],
+      "missing": [
+        "legalReviewedAt",
+        "reviewer",
+        "reformas_y_derogaciones_exhaustivas",
+        "texto_consolidado",
+        "ambito_de_aplicacion"
+      ],
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "spdp-biometria-2026",
+      "title": "Norma General para el Tratamiento de Datos Biométricos",
+      "currentStatus": "pendiente_verificacion",
+      "currentLegalEffect": "vigencia_pendiente_publicacion",
+      "recommendedStatus": "pendiente_verificacion",
+      "evidence": [
+        {
+          "url": "https://spdp.gob.ec/resoluciones2/",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://spdp.gob.ec/resoluciones2/",
+          "officialHost": true
+        }
+      ],
+      "indicators": [
+        "indicio_reforma:https://spdp.gob.ec/resoluciones2/",
+        "indicio_derogacion:https://spdp.gob.ec/resoluciones2/"
+      ],
+      "missing": [
+        "legalReviewedAt",
+        "reviewer",
+        "reformas_y_derogaciones_exhaustivas",
+        "texto_consolidado",
+        "ambito_de_aplicacion"
+      ],
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "spdp-vulneraciones-2026",
+      "title": "Norma Técnica de Notificaciones de Vulneraciones de la Seguridad de los Datos Personales",
+      "currentStatus": "pendiente_verificacion",
+      "currentLegalEffect": "vigencia_pendiente_publicacion",
+      "recommendedStatus": "pendiente_verificacion",
+      "evidence": [
+        {
+          "url": "https://spdp.gob.ec/resoluciones2/",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://spdp.gob.ec/resoluciones2/",
+          "officialHost": true
+        }
+      ],
+      "indicators": [
+        "indicio_reforma:https://spdp.gob.ec/resoluciones2/",
+        "indicio_derogacion:https://spdp.gob.ec/resoluciones2/"
+      ],
+      "missing": [
+        "legalReviewedAt",
+        "reviewer",
+        "reformas_y_derogaciones_exhaustivas",
+        "texto_consolidado",
+        "ambito_de_aplicacion"
+      ],
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "spdp-ia-2026",
+      "title": "Norma General de Protección de Datos Personales en el Uso de Sistemas de Inteligencia Artificial",
+      "currentStatus": "pendiente_verificacion",
+      "recommendedStatus": "pendiente_verificacion",
+      "evidence": [
+        {
+          "url": "https://www.registroficial.gob.ec/registro-oficial-no-240-22/",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.registroficial.gob.ec/registro-oficial-no-240-22/",
+          "officialHost": true
+        },
+        {
+          "url": "https://www.registroficial.gob.ec/registro-oficial-no-373-21/",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.registroficial.gob.ec/registro-oficial-no-373-21/",
+          "officialHost": true
+        }
+      ],
+      "indicators": [
+        "indicio_reforma:https://www.registroficial.gob.ec/registro-oficial-no-373-21/"
+      ],
+      "missing": [
+        "legalReviewedAt",
+        "reviewer",
+        "reformas_y_derogaciones_exhaustivas",
+        "texto_consolidado",
+        "ambito_de_aplicacion"
+      ],
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "ley-vigilancia-seguridad-privada-2024",
+      "title": "Ley Orgánica de Vigilancia y Seguridad Privada",
+      "currentStatus": "pendiente_verificacion",
+      "recommendedStatus": "pendiente_verificacion",
+      "evidence": [
+        {
+          "url": "https://www.registroficial.gob.ec/suplemento-al-registro-oficial-no-496/",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.registroficial.gob.ec/suplemento-al-registro-oficial-no-496/",
+          "officialHost": true
+        },
+        {
+          "url": "https://www.registroficial.gob.ec/suplemento-al-registro-oficial-no-507/",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.registroficial.gob.ec/suplemento-al-registro-oficial-no-507/",
           "officialHost": true
         }
       ],

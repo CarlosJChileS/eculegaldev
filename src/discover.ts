@@ -27,7 +27,7 @@ export async function discoverOfficialSources(): Promise<DiscoveredSource[]> {
       // Los índices contienen navegación, noticias y páginas institucionales.
       // Solo pasan candidatos cuyo texto parece una disposición normativa.
       if (!/(ley|c[oó]digo|reglamento|resoluci[oó]n|decreto|acuerdo ministerial|ordenanza|normativa|registro oficial)/i.test(title)) continue;
-      if (/contacto|chrome|facebook|twitter|youtube|instagram|inicio|misi[oó]n|visi[oó]n|qui[eé]nes|noticia|participa|votaciones|manual|pol[ií]tica|[íi]ndice|suplemento|edici[oó]n|sentencias/i.test(title)) continue;
+      if (/contacto|chrome|facebook|twitter|youtube|instagram|inicio|misi[oó]n|visi[oó]n|qui[eé]nes|noticia|participa|votaciones|manual|pol[ií]tica|[íi]ndice|suplemento|edici[oó]n|sentencias|consulta de proyectos|registro oficial/i.test(title)) continue;
       const key = `${title.toLowerCase()}|${url}`;
       found.set(key, { title, url, discoveredAt: new Date().toISOString().slice(0, 10), origin: source.origin, status: 'requiere_revision' });
     }

@@ -4,7 +4,7 @@ import type { LegalSource } from './domain.js';
 
 type Evidence = { url: string; reachable: boolean; status?: number; finalUrl?: string; officialHost: boolean; error?: string };
 type LegalReview = {
-  id: string; title: string; currentStatus: LegalSource['status']; recommendedStatus: LegalSource['status'];
+  id: string; title: string; currentStatus: LegalSource['status']; recommendedStatus: LegalSource['status']; currentLegalEffect?: LegalSource['legalEffect'];
   evidence: Evidence[]; indicators: string[]; missing: string[]; conclusion: 'requiere_revision_juridica' | 'apta_para_revision_humana';
 };
 
@@ -41,8 +41,9 @@ export async function generateLegalReview(input = resolve(process.cwd(), 'data/n
     const evidence = await Promise.all(urls.map(inspect));
     const found = await indicators(urls.filter((_, index) => evidence[index]?.reachable));
     const missing = ['legalReviewedAt', 'reviewer', 'reformas_y_derogaciones_exhaustivas', 'texto_consolidado', 'ambito_de_aplicacion'];
-    const humanReviewed = Boolean(source.verification?.legalReviewedAt && source.verification.reviewer);
-    return { id: source.id, title: source.title, currentStatus: source.status, recommendedStatus: humanReviewed ? source.status : 'pendiente_verificacion', evidence, indicators: found, missing: humanReviewed ? missing.slice(2) : missing, conclusion: humanReviewed ? 'apta_para_revision_humana' : 'requiere_revision_juridica' };
+    const reviewer = source.verification?.reviewer;
+    const humanReviewed = Boolean(source.verification?.legalReviewedAt && source.verification?.reviewerType === 'humana' && reviewer && !/codex|asistida|autom[aá]tica|automated/i.test(reviewer));
+    return { id: source.id, title: source.title, currentStatus: source.status, currentLegalEffect: source.legalEffect, recommendedStatus: humanReviewed ? source.status : 'pendiente_verificacion', evidence, indicators: found, missing: humanReviewed ? missing.slice(2) : missing, conclusion: humanReviewed ? 'apta_para_revision_humana' : 'requiere_revision_juridica' };
   }));
   await writeFile(output, `${JSON.stringify({ generatedAt: new Date().toISOString(), checkedAt: today(), warning: 'Los indicios automáticos no determinan vigencia jurídica. Requieren revisión humana.', sources: reports }, null, 2)}\n`, 'utf8');
   return { output, count: reports.length, reachable: reports.filter(report => report.evidence.some(item => item.reachable)).length };

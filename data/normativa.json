@@ -1,5 +1,62 @@
 [
   {
+    "id": "rgpd-ue",
+    "title": "Reglamento (UE) 2016/679 — Reglamento General de Protección de Datos (RGPD)",
+    "type": "reglamento",
+    "hierarchyLevel": "tratado_internacional",
+    "issuer": "Parlamento Europeo y Consejo de la Unión Europea",
+    "jurisdiction": "Unión Europea",
+    "publishedAt": "2016-05-04",
+    "verifiedAt": "2026-09-23",
+    "status": "pendiente_verificacion",
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "documentUrl": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679",
+    "topics": ["datos personales", "privacidad", "derechos de titulares", "transferencias internacionales", "alcance extraterritorial"],
+    "summary": "Marco europeo de protección de datos personales. Puede alcanzar a organizaciones establecidas fuera de la UE cuando ofrecen bienes o servicios a personas que se encuentran en la Unión o controlan su comportamiento allí. La mera accesibilidad de un sitio web desde Europa no basta por sí sola. No sustituye las obligaciones ecuatorianas de la LOPDP.",
+    "sourceKind": "norma",
+    "history": [{ "type": "publicacion", "date": "2016-05-04", "title": "Publicación del Reglamento (UE) 2016/679 en el Diario Oficial de la Unión Europea", "sourceUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj" }],
+    "verification": { "urlCheckedAt": "2026-09-23", "documentaryReviewedAt": "2026-09-23", "documentaryStatus": "parcial", "notes": "Ficha informativa basada en el texto oficial de EUR-Lex. El alcance territorial depende de hechos concretos y requiere análisis jurídico; no se afirma aplicabilidad general a empresas ecuatorianas." },
+    "relatedSourceIds": ["lopdp"],
+    "obligations": [
+      {
+        "id": "alcance-territorial", "article": "Art. 3", "sourceUrl": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679", "appliesWhenRules": ["processesPersonalData"],
+        "requirement": { "es": "Determinar si el RGPD aplica por establecimiento en la UE o por ofrecer bienes o servicios a personas que se encuentran en la Unión, o por observar su comportamiento allí. La accesibilidad del sitio web desde la UE, por sí sola, no demuestra que se ofrezcan bienes o servicios.", "en": "Determine whether the GDPR applies because of an EU establishment, offering goods or services to people in the Union, or monitoring their behaviour there. Website accessibility from the EU alone does not establish an offer of goods or services." },
+        "appliesWhen": { "es": "Tratamiento de datos personales en el contexto de las actividades de un establecimiento en la UE, o tratamiento por una organización fuera de la UE relacionado con oferta dirigida a personas en la Unión o seguimiento de su comportamiento allí.", "en": "Processing in the context of an EU establishment, or processing by a non-EU organization related to offering goods or services to people in the Union or monitoring their behaviour there." },
+        "evidence": [{ "es": "Análisis documentado del establecimiento, ubicación de las personas, mercados e idiomas/monedas objetivo, pedidos y seguimiento conductual.", "en": "Documented assessment of establishment, people’s location, target markets and languages/currencies, orders, and behavioural monitoring." }], "documentaryReviewedAt": "2026-09-23"
+      },
+      {
+        "id": "principios-y-base-juridica", "article": "Arts. 5, 6 y 9", "sourceUrl": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679", "appliesWhenRules": ["processesPersonalData"],
+        "requirement": { "es": "Aplicar los principios de licitud, transparencia, limitación de finalidad, minimización, exactitud, limitación de conservación, integridad y confidencialidad, y documentar una base jurídica válida; para categorías especiales, cumplir además las condiciones del artículo 9.", "en": "Apply lawfulness, transparency, purpose limitation, data minimisation, accuracy, storage limitation, integrity and confidentiality, and document a valid legal basis; for special categories, also meet Article 9 conditions." },
+        "appliesWhen": { "es": "Cuando el RGPD resulte aplicable al tratamiento.", "en": "Where the GDPR applies to the processing." },
+        "evidence": [{ "es": "Registro de actividades, avisos de privacidad, matriz de bases jurídicas y plazos de conservación, y controles de acceso.", "en": "Processing records, privacy notices, lawful-basis and retention schedule, and access controls." }], "documentaryReviewedAt": "2026-09-23"
+      },
+      {
+        "id": "derechos-y-atencion", "article": "Arts. 12–22", "sourceUrl": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679", "appliesWhenRules": ["processesPersonalData"],
+        "requirement": { "es": "Facilitar información transparente y mecanismos para atender los derechos de acceso, rectificación, supresión, limitación, portabilidad, oposición y los relativos a decisiones automatizadas, dentro de los plazos y excepciones legales.", "en": "Provide transparent information and mechanisms to handle access, rectification, erasure, restriction, portability, objection, and automated-decision rights within statutory deadlines and exceptions." },
+        "appliesWhen": { "es": "Cuando el RGPD resulte aplicable y una persona ejerza derechos sobre sus datos.", "en": "Where the GDPR applies and a person exercises rights over their data." },
+        "evidence": [{ "es": "Procedimiento de solicitudes, registro de respuestas, verificación de identidad y plazos.", "en": "Rights-request procedure, response log, identity checks, and deadlines." }], "documentaryReviewedAt": "2026-09-23"
+      },
+      {
+        "id": "brechas-72-horas", "article": "Arts. 33 y 34", "sourceUrl": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679", "appliesWhenRules": ["hasSecurityIncident"],
+        "requirement": { "es": "Notificar a la autoridad de control competente una violación de seguridad sin dilación indebida y, cuando sea posible, dentro de las 72 horas desde que se tenga conocimiento, salvo que sea improbable que entrañe riesgo; comunicarla a las personas afectadas cuando exista alto riesgo, conforme al artículo 34.", "en": "Notify the competent supervisory authority without undue delay and, where feasible, within 72 hours after becoming aware of a personal data breach, unless it is unlikely to risk individuals’ rights and freedoms; notify affected people where there is high risk under Article 34." },
+        "appliesWhen": { "es": "Ante una violación de seguridad de datos personales tratada bajo el RGPD; los umbrales de notificación dependen del riesgo.", "en": "When a personal data breach occurs in processing subject to the GDPR; notification thresholds depend on risk." },
+        "evidence": [{ "es": "Plan de respuesta a incidentes con evaluación de riesgo, cronología, decisión de notificar, comunicaciones y medidas correctivas.", "en": "Incident response plan with risk assessment, timeline, notification decision, communications, and corrective measures." }], "documentaryReviewedAt": "2026-09-23"
+      },
+      {
+        "id": "representante-ue", "article": "Art. 27", "sourceUrl": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679", "appliesWhenRules": ["processesPersonalData"],
+        "requirement": { "es": "Designar por escrito un representante en la Unión cuando el responsable o encargado no esté establecido en la UE y el artículo 3(2) aplique, salvo las excepciones previstas.", "en": "Designate in writing a Union representative where a controller or processor is not established in the EU and Article 3(2) applies, subject to the stated exceptions." },
+        "appliesWhen": { "es": "Organizaciones fuera de la UE sujetas al artículo 3(2), excepto los supuestos de exención del propio artículo.", "en": "Organizations outside the EU subject to Article 3(2), except for the exemptions in that article." },
+        "evidence": [{ "es": "Nombramiento escrito y datos del representante reflejados en la información a titulares.", "en": "Written designation and representative contact details included in data-subject information." }], "documentaryReviewedAt": "2026-09-23"
+      },
+      {
+        "id": "sanciones-rgpd", "article": "Art. 83", "sourceUrl": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679", "appliesWhenRules": ["processesPersonalData"],
+        "requirement": { "es": "Considerar el régimen sancionador del RGPD: según la infracción, las multas administrativas pueden alcanzar hasta 20 millones de euros o, para una empresa, hasta el 4 % del volumen de negocio total anual mundial del ejercicio anterior, aplicándose la cuantía mayor en los supuestos del artículo.", "en": "Account for the GDPR penalty regime: depending on the infringement, administrative fines may reach up to EUR 20 million or, for an undertaking, up to 4% of total worldwide annual turnover in the preceding financial year, whichever is higher for the cases covered by the Article." },
+        "appliesWhen": { "es": "Infracciones de obligaciones sujetas al RGPD; la cuantía depende de la categoría de infracción y de los criterios del artículo 83.", "en": "Infringements of obligations subject to the GDPR; the amount depends on the infringement tier and Article 83 criteria." },
+        "evidence": [{ "es": "Evaluación de cumplimiento, registro de decisiones, medidas correctivas y evidencia de cooperación con la autoridad.", "en": "Compliance assessment, decision records, corrective measures, and evidence of cooperation with the supervisory authority." }], "documentaryReviewedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
     "id": "lopdp",
     "title": "Ley Orgánica de Protección de Datos Personales",
     "type": "ley",
@@ -950,6 +1007,27 @@
     "obligations": []
   },
   {
+    "id": "spdp-gran-escala-2026",
+    "title": "Norma General sobre el Tratamiento de Datos Personales a Gran Escala",
+    "type": "resolución",
+    "hierarchyLevel": "resolucion",
+    "issuer": "Superintendencia de Protección de Datos Personales",
+    "jurisdiction": "Ecuador",
+    "publishedAt": "2026-02-25",
+    "verifiedAt": "2026-09-23",
+    "status": "pendiente_verificacion",
+    "url": "https://www.registroficial.gob.ec/suplemento-no-231/",
+    "documentUrl": "https://www.registroficial.gob.ec/suplemento-no-231/",
+    "officialGazette": { "number": "231", "edition": "Suplemento" },
+    "topics": ["datos personales", "tratamiento a gran escala", "privacidad", "delegado de protección de datos", "evaluación de impacto"],
+    "summary": "Establece criterios y un modelo técnico para identificar tratamientos de datos personales a gran escala. La clasificación debe realizarse por cada actividad de tratamiento y no solo por el tamaño general de la organización.",
+    "sourceKind": "norma",
+    "history": [{ "type": "publicacion", "date": "2026-02-25", "title": "Publicación de la Resolución SPDP-SPD-2026-0005-R", "officialGazette": "Suplemento No. 231", "sourceUrl": "https://www.registroficial.gob.ec/suplemento-no-231/" }],
+    "verification": { "urlCheckedAt": "2026-09-23", "documentaryReviewedAt": "2026-09-23", "documentaryStatus": "parcial", "notes": "Número, título y fecha confirmados en el índice oficial. La norma se relaciona con el modelo de gran escala y sus supuestos del artículo 14. La evaluación exacta debe realizarse sobre el texto publicado y la actividad concreta; requiere revisión jurídica humana." },
+    "relatedSourceIds": ["lopdp", "reglamento-lopdp", "spdp-transferencias-2026"],
+    "obligations": [{ "id": "determinar-gran-escala", "article": "Arts. 7, 8, 9, 10 y 14", "sourceUrl": "https://www.registroficial.gob.ec/suplemento-no-231/", "appliesWhenRules": ["largeScaleProcessing"], "requirement": { "es": "Evaluar cada actividad de tratamiento con el modelo técnico aplicable y verificar si alcanza el umbral o cae en un supuesto de calificación directa; documentar el resultado y las medidas que correspondan.", "en": "Assess each processing activity using the applicable technical model and check whether it reaches the threshold or falls under a direct qualification; document the result and resulting measures." }, "appliesWhen": { "es": "Responsables o encargados que realizan tratamiento de datos personales que podría ser de gran escala; no basta con el tamaño total de la organización.", "en": "Controllers or processors conducting potentially large-scale personal-data processing; the organization's overall size alone is not enough." }, "evidence": [{ "es": "Ficha por actividad de tratamiento con titulares, volumen, categorías, frecuencia, permanencia y alcance geográfico; cálculo del modelo y análisis de supuestos directos.", "en": "Per-activity record of data subjects, volume, categories, frequency, duration and geographic scope; model calculation and direct-trigger analysis." }, { "es": "Inventario de tratamientos y justificación revisada por privacidad/jurídico.", "en": "Processing inventory and rationale reviewed by privacy/legal." }], "documentaryReviewedAt": "2026-09-23" }]
+  },
+  {
     "id": "constitucion-republica",
     "title": "Constitución de la República del Ecuador",
     "type": "constitución",
@@ -1017,6 +1095,7 @@
       {
         "id": "relaciones-laborales",
         "article": "Obligaciones laborales aplicables",
+        "appliesWhenRules": ["hasEmployees"],
         "sourceUrl": "https://www.asambleanacional.gob.ec/es/leyes-aprobadas?leyes-aprobadas=All&title=C%C3%B3digo+del+Trabajo",
         "requirement": {
           "es": "Revisar contratos, jornada, remuneración y tratamiento de datos de trabajadores cuando el proyecto tenga personal.",
@@ -1089,6 +1168,7 @@
       {
         "id": "gobierno-societario",
         "article": "Obligaciones societarias aplicables",
+        "appliesWhenRules": ["isCompany"],
         "sourceUrl": "https://www.registroficial.gob.ec/",
         "requirement": {
           "es": "Verificar constitución, representación, administración y obligaciones de la compañía cuando el proyecto opere mediante una sociedad.",
@@ -1137,6 +1217,7 @@
       {
         "id": "servicio-financiero-regulado",
         "article": "Regulación financiera sectorial",
+        "appliesWhenRules": ["offersRegulatedFinancialService"],
         "sourceUrl": "https://www.jprf.gob.ec/",
         "requirement": {
           "es": "Revisar controles y autorización sectorial cuando el sistema opere para una entidad financiera o preste un servicio regulado.",
@@ -1185,6 +1266,7 @@
       {
         "id": "datos-salud",
         "article": "Datos y servicios de salud",
+        "appliesWhenRules": ["storesSensitiveData"],
         "sourceUrl": "https://www.salud.gob.ec/",
         "requirement": {
           "es": "Aplicar revisión sectorial reforzada cuando el sistema trate información de salud o preste servicios sanitarios.",
@@ -1233,6 +1315,7 @@
       {
         "id": "datos-estudiantes",
         "article": "Datos y servicios educativos",
+        "appliesWhenRules": ["hasMinors"],
         "sourceUrl": "https://educacion.gob.ec/",
         "requirement": {
           "es": "Revisar obligaciones sectoriales y protección reforzada cuando el sistema trate datos de estudiantes o preste servicios educativos.",
@@ -1251,5 +1334,246 @@
         "documentaryReviewedAt": "2026-09-09"
       }
     ]
+  },
+  {
+    "id": "convenio-budapest-ciberdelincuencia",
+    "title": "Convenio sobre la Ciberdelincuencia (Convenio de Budapest)",
+    "type": "tratado internacional",
+    "hierarchyLevel": "tratado_internacional",
+    "issuer": "Consejo de Europa",
+    "jurisdiction": "Ecuador",
+    "publishedAt": "2025-04-04",
+    "issuedAt": "2024-12-12",
+    "verifiedAt": "2026-09-23",
+    "status": "vigente",
+    "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=185",
+    "documentUrl": "https://www.asambleanacional.gob.ec/es/system/files/convenio_remitido_por_ejecutivo.pdf",
+    "topics": ["ciberdelincuencia", "cooperación internacional", "delitos informáticos"],
+    "summary": "Instrumento internacional sobre ciberdelincuencia cuya aprobación legislativa ecuatoriana debe distinguirse de su entrada en vigor y ratificación.",
+    "sourceKind": "norma",
+    "history": [
+      {
+        "type": "publicacion",
+        "date": "2024-07-04",
+        "title": "Aprobación legislativa del Convenio sobre Ciberdelincuencia",
+        "sourceUrl": "https://www.asambleanacional.gob.ec/es/noticia/97575-asamblea-nacional-aprobo-el-convenio-sobre",
+        "notes": "Aprobado por la Asamblea Nacional."
+      },
+      {
+        "type": "publicacion",
+        "date": "2024-07-12",
+        "title": "Ratificación mediante Decreto Ejecutivo 332",
+        "sourceUrl": "https://www.cancilleria.gob.ec/2024/12/13/deposito-del-instrumento-de-ratificacion-del-convenio-de-budapest/",
+        "notes": "Cancillería informa que el Presidente ratificó el Convenio mediante este decreto."
+      },
+      {
+        "type": "publicacion",
+        "date": "2024-12-12",
+        "title": "Depósito del instrumento de adhesión ante el Consejo de Europa",
+        "sourceUrl": "https://www.coe.int/en/web/cybercrime/-/convention-on-cybercrime-ecuador-becomes-the-77th-party-and-peru-signs-the-second-protocol-on-electronic-evidence",
+        "notes": "El Consejo de Europa confirma el depósito y que Ecuador pasó a ser Parte del Convenio."
+      },
+      {
+        "type": "publicacion",
+        "date": "2025-03-12",
+        "title": "Entrada en vigor para Ecuador",
+        "sourceUrl": "https://www.cancilleria.gob.ec/2024/12/13/deposito-del-instrumento-de-ratificacion-del-convenio-de-budapest/",
+        "notes": "Fecha calculada como 90 días posteriores al depósito, conforme a Cancillería; coincide con el plazo del tratado para Estados que se adhieren."
+      },
+      {
+        "type": "publicacion",
+        "date": "2025-04-04",
+        "title": "Publicación del Convenio en el Registro Oficial No. 13",
+        "sourceUrl": "https://www.registroficial.gob.ec/registro-oficial-no-13-17/",
+        "officialGazette": "Registro Oficial No. 13",
+        "notes": "El Registro Oficial incluye el Convenio sobre la Ciberdelincuencia entre los instrumentos internacionales publicados."
+      }
+    ],
+    "verification": {
+      "urlCheckedAt": "2026-09-23",
+      "documentaryReviewedAt": "2026-09-23",
+      "documentaryStatus": "revisado",
+      "statusBasis": "documental_oficial",
+      "reviewer": "Revisión documental asistida por Codex; no equivale a dictamen jurídico",
+      "notes": "Confirmados por fuentes oficiales el Decreto Ejecutivo 332 de 12-07-2024, el depósito de 12-12-2024, la entrada en vigor para Ecuador el 12-03-2025 y la publicación en Registro Oficial No. 13 de 04-04-2025. Se clasifica vigente a efectos del catálogo; la revisión no sustituye asesoría legal."
+    },
+    "relatedSourceIds": ["coip-delitos-informaticos", "reforma-delitos-informaticos"],
+    "obligations": []
+  },
+  {
+    "id": "ley-fortalecimiento-ciberseguridad",
+    "title": "Ley Orgánica para el Fortalecimiento de la Ciberseguridad",
+    "type": "ley",
+    "hierarchyLevel": "ley_organica",
+    "issuer": "Asamblea Nacional del Ecuador",
+    "jurisdiction": "Ecuador",
+    "publishedAt": "2026-05-22",
+    "verifiedAt": "2026-09-23",
+    "status": "pendiente_verificacion",
+    "url": "https://www.registroficial.gob.ec/quinto-suplemento-no-290/",
+    "topics": ["ciberseguridad", "seguridad", "infraestructura crítica", "servicios digitales"],
+    "summary": "Ley publicada en el Quinto Suplemento del Registro Oficial No. 290. El régimen contempla entidades públicas para servicios esenciales/infraestructura crítica digital, prestadores digitales con alcance limitado a su esfera de control y responsabilidad compartida, y personas jurídicas privadas críticas o con incidencia directa en continuidad esencial. Su aplicación concreta requiere comprobar el sujeto, sector, normativa técnica y transitorias.",
+    "officialGazette": { "number": "290", "edition": "Quinto Suplemento" },
+    "sourceKind": "norma",
+    "history": [{ "type": "publicacion", "date": "2026-05-22", "title": "Publicación de la Ley Orgánica para el Fortalecimiento de la Ciberseguridad", "sourceUrl": "https://www.registroficial.gob.ec/quinto-suplemento-no-290/", "officialGazette": "Quinto Suplemento No. 290" }],
+    "verification": { "urlCheckedAt": "2026-09-23", "documentaryReviewedAt": "2026-09-23", "documentaryStatus": "parcial", "notes": "Revisado documentalmente el texto publicado en RO No. 290: Arts. 20-A, 20-I y 20-Q y transitorias relevantes para alcance y responsabilidad compartida; reforma art. 43 LOPDP sobre notificación de vulneraciones. Falta revisión jurídica integral de reglamentación, normativa técnica sectorial, transitorias y reformas posteriores; no equivale a dictamen." },
+    "relatedSourceIds": ["coip-delitos-informaticos", "convenio-budapest-ciberdelincuencia"],
+    "obligations": [
+      { "id": "prestador-digital-responsabilidad-compartida", "article": "Arts. 20-A, 20-I y 20-Q", "sourceUrl": "https://www.registroficial.gob.ec/quinto-suplemento-no-290/", "appliesWhenRules": ["providesDigitalService"], "requirement": { "es": "Identificar y aplicar medidas técnicas y organizativas, evaluación y gestión de riesgos y cooperación ante incidentes dentro de los componentes bajo control del prestador; documentar límites de responsabilidad compartida con clientes y proveedores. Confirmar requisitos secundarios aplicables.", "en": "Identify and apply technical and organizational safeguards, risk assessment and management, and incident cooperation within components under the provider's control; document shared-responsibility boundaries with customers and providers. Confirm applicable secondary requirements." }, "appliesWhen": { "es": "Prestación de un servicio digital; obligaciones limitadas a los elementos bajo la esfera de control del prestador y sujetas al principio de responsabilidad compartida.", "en": "Provision of a digital service; duties are limited to elements under the provider's control and subject to shared responsibility." }, "evidence": [{ "es": "Diagrama de arquitectura y matriz RACI de controles de ciberseguridad que delimite operador, cliente y proveedores.", "en": "Architecture diagram and cybersecurity control RACI matrix delimiting provider, customer and vendors." }, { "es": "Evaluación de riesgos, medidas técnicas/organizativas y procedimiento de cooperación y gestión de incidentes.", "en": "Risk assessment, technical/organizational safeguards, and incident management/cooperation procedure." }], "documentaryReviewedAt": "2026-09-23" },
+      { "id": "alcance-critico-esencial", "article": "Art. 20-A letras a) y c); normativa técnica sectorial", "sourceUrl": "https://www.registroficial.gob.ec/quinto-suplemento-no-290/", "appliesWhenRules": ["operatesCriticalEssentialService"], "requirement": { "es": "Confirmar clasificación formal, continuidad del servicio esencial e instrumentos sectoriales antes de determinar obligaciones adicionales; no inferir criticidad solo por usar tecnología.", "en": "Confirm formal classification, essential-service continuity and sector instruments before determining additional duties; do not infer criticality solely from technology use." }, "appliesWhen": { "es": "Entidad pública en gestión de servicios esenciales/infraestructura crítica digital o persona jurídica privada clasificada/responsable o con incidencia directa en la continuidad esencial bajo los criterios aplicables.", "en": "Public entity managing essential services/critical digital infrastructure or private legal entity classified/responsible or directly affecting essential continuity under applicable criteria." }, "evidence": [{ "es": "Acto de clasificación o habilitación sectorial, análisis de impacto en continuidad y dictamen de alcance jurídico/técnico.", "en": "Classification or sector authorization, continuity-impact analysis, and legal/technical scope opinion." }], "documentaryReviewedAt": "2026-09-23" },
+      { "id": "notificacion-vulneracion-lopdp", "article": "Reforma del Art. 43 LOPDP por Ley Orgánica para el Fortalecimiento de la Ciberseguridad", "sourceUrl": "https://www.registroficial.gob.ec/quinto-suplemento-no-290/", "appliesWhenRules": ["hasSecurityIncident", "processesPersonalData"], "requirement": { "es": "Ante una vulneración de seguridad de datos personales, evaluar sin demora el riesgo y documentar la notificación a la SPDP, al organismo de regulación y control competente y al CSIRT correspondiente tan pronto sea posible y, como máximo, dentro del término de cinco días desde que se tuvo constancia, salvo que sea improbable que exista riesgo para derechos y libertades. Si se excede ese término, documentar los motivos de la dilación.", "en": "Upon a personal-data security breach, promptly assess risk and document notification to the SPDP, competent regulatory/control body and relevant CSIRT as soon as possible and no later than five days from awareness, unless a risk to rights and freedoms is unlikely. If late, document the reasons for delay." }, "appliesWhen": { "es": "Incidente que constituya vulneración de seguridad de datos personales tratados por el proyecto; el disparador y la excepción dependen del hecho y la evaluación de riesgo.", "en": "Incident constituting a breach of security of personal data processed by the project; trigger and exception depend on facts and risk assessment." }, "evidence": [{ "es": "Registro de incidente con hora de constancia, cronología, datos/titulares afectados, evaluación de riesgo, decisión motivada y constancias de notificación a autoridades/CSIRT dentro del término o motivos de demora.", "en": "Incident record with awareness time, timeline, affected data/data subjects, risk assessment, reasoned decision and proof of timely authority/CSIRT notice or delay rationale." }], "documentaryReviewedAt": "2026-09-23" }
+    ]
+  },
+  {
+    "id": "nte-inen-iso-iec-22989-2022",
+    "title": "NTE INEN-ISO/IEC 22989:2022 — Conceptos y terminología de inteligencia artificial",
+    "type": "estándar técnico",
+    "hierarchyLevel": "estandar_tecnico",
+    "issuer": "INEN / Ministerio de Producción, Comercio Exterior e Inversiones",
+    "jurisdiction": "Ecuador",
+    "publishedAt": "2026-06-16",
+    "verifiedAt": "2026-09-23",
+    "status": "pendiente_verificacion",
+    "url": "https://www.registroficial.gob.ec/quinto-suplemento-no-306/",
+    "topics": ["inteligencia artificial", "estándar técnico", "terminología"],
+    "summary": "Norma Técnica Ecuatoriana oficializada con carácter voluntario en el Registro Oficial. No constituye un rango de jerarquía legal; se incluye como referencia técnica." ,
+    "officialGazette": { "number": "306", "edition": "Quinto Suplemento" },
+    "sourceKind": "norma",
+    "history": [{ "type": "resolucion", "date": "2026-06-16", "title": "Oficialización voluntaria de la NTE INEN-ISO/IEC 22989:2022", "sourceUrl": "https://www.registroficial.gob.ec/quinto-suplemento-no-306/", "officialGazette": "Quinto Suplemento No. 306" }],
+    "verification": { "urlCheckedAt": "2026-09-23", "documentaryReviewedAt": "2026-09-23", "documentaryStatus": "parcial", "notes": "El Registro Oficial identifica expresamente el carácter voluntario. Falta revisar el texto técnico adoptado, modificaciones posteriores y condiciones de aplicación." },
+    "relatedSourceIds": [],
+    "obligations": []
+  },
+  {
+    "id": "ley-organica-inteligencia-2025",
+    "title": "Ley Orgánica de Inteligencia",
+    "type": "ley",
+    "hierarchyLevel": "ley_organica",
+    "issuer": "Asamblea Nacional del Ecuador",
+    "jurisdiction": "Ecuador",
+    "publishedAt": "2025-06-11",
+    "verifiedAt": "2026-09-23",
+    "status": "pendiente_verificacion",
+    "url": "https://www.registroficial.gob.ec/cuarto-suplemento-no-57/",
+    "topics": ["inteligencia", "seguridad", "sistemas públicos", "datos personales"],
+    "summary": "Ley publicada en el Cuarto Suplemento No. 57. Su eventual relevancia depende del tipo de operador, tratamiento y relación con el Sistema Nacional de Inteligencia; no se presume aplicable a proyectos tecnológicos comunes.",
+    "officialGazette": { "number": "57", "edition": "Cuarto Suplemento" },
+    "sourceKind": "norma",
+    "history": [
+      { "type": "publicacion", "date": "2025-06-11", "title": "Publicación de la Ley Orgánica de Inteligencia", "sourceUrl": "https://www.registroficial.gob.ec/cuarto-suplemento-no-57/", "officialGazette": "Cuarto Suplemento No. 57" },
+      { "type": "reglamento", "date": "2025-07-15", "title": "Reglamento General a la Ley Orgánica de Inteligencia, Decreto Ejecutivo 52", "sourceUrl": "https://www.registroficial.gob.ec/cuarto-suplemento-no-81/", "officialGazette": "Cuarto Suplemento No. 81" }
+    ],
+    "verification": { "urlCheckedAt": "2026-09-23", "documentaryReviewedAt": "2026-09-23", "documentaryStatus": "parcial", "notes": "Título, fecha y reglamento identificados en Registro Oficial. Falta revisión del texto íntegro, alcance subjetivo y reformas; no confirmar vigencia ni inferir aplicación general." },
+    "relatedSourceIds": [],
+    "obligations": []
+  },
+  {
+    "id": "reforma-telecomunicaciones-2025",
+    "title": "Ley Orgánica Reformatoria a la Ley Orgánica de Telecomunicaciones",
+    "type": "ley reformatoria",
+    "hierarchyLevel": "ley_organica",
+    "issuer": "Asamblea Nacional del Ecuador",
+    "jurisdiction": "Ecuador",
+    "publishedAt": "2025-06-13",
+    "verifiedAt": "2026-09-23",
+    "status": "pendiente_verificacion",
+    "url": "https://www.registroficial.gob.ec/quinto-suplemento-no-59/",
+    "topics": ["telecomunicaciones", "internet", "servicios digitales"],
+    "summary": "Reforma publicada en el Quinto Suplemento No. 59. Debe leerse junto con la Ley Orgánica de Telecomunicaciones y su texto consolidado.",
+    "officialGazette": { "number": "59", "edition": "Quinto Suplemento" },
+    "sourceKind": "norma",
+    "history": [{ "type": "reforma", "date": "2025-06-13", "title": "Reforma a la Ley Orgánica de Telecomunicaciones", "sourceUrl": "https://www.registroficial.gob.ec/quinto-suplemento-no-59/", "officialGazette": "Quinto Suplemento No. 59" }],
+    "verification": { "urlCheckedAt": "2026-09-23", "documentaryReviewedAt": "2026-09-23", "documentaryStatus": "parcial", "notes": "Confirmados título, fecha y suplemento en Registro Oficial. Falta revisar texto y artículos reformados para determinar sujetos obligados." },
+    "relatedSourceIds": ["telecomunicaciones"],
+    "obligations": [{ "id": "actividad-telecom-regulada", "article": "Reforma sectorial; artículos por verificar en el texto íntegro", "sourceUrl": "https://www.registroficial.gob.ec/quinto-suplemento-no-59/", "appliesWhenRules": ["operatesTelecomNetwork"], "requirement": { "es": "Revisar la reforma únicamente si el proyecto opera redes o presta servicios de telecomunicaciones sujetos a regulación.", "en": "Review this amendment only if the project operates networks or provides regulated telecommunications services." }, "appliesWhen": { "es": "Operación de redes o prestación de servicios de telecomunicaciones regulados.", "en": "Operation of networks or provision of regulated telecommunications services." }, "evidence": [{ "es": "Descripción técnica del servicio, títulos habilitantes y análisis de alcance regulatorio.", "en": "Technical service description, authorizations and regulatory scope analysis." }], "documentaryReviewedAt": "2026-09-23" }]
+  },
+  {
+    "id": "spdp-biometria-2026",
+    "title": "Norma General para el Tratamiento de Datos Biométricos",
+    "type": "resolución",
+    "hierarchyLevel": "resolucion",
+    "issuer": "Superintendencia de Protección de Datos Personales",
+    "jurisdiction": "Ecuador",
+    "publishedAt": null,
+    "issuedAt": "2026-09-09",
+    "legalEffect": "vigencia_pendiente_publicacion",
+    "verifiedAt": "2026-09-23",
+    "status": "pendiente_verificacion",
+    "url": "https://spdp.gob.ec/resoluciones2/",
+    "topics": ["biometría", "datos sensibles", "datos personales", "privacidad", "seguridad"],
+    "summary": "Resolución SPDP-SPD-2026-0039-R identificada en el repositorio oficial. Fuentes consultadas indican que su vigencia depende de publicación en Registro Oficial, no confirmada al corte; no se presenta como vigente.",
+    "sourceKind": "norma",
+    "history": [{ "type": "resolucion", "date": "2026-09-09", "title": "Expedición de Resolución SPDP-SPD-2026-0039-R", "sourceUrl": "https://spdp.gob.ec/resoluciones2/", "notes": "El portal SPDP incluye la resolución; el Registro Oficial y la fecha de publicación/entrada en vigor requieren confirmación." }],
+    "verification": { "urlCheckedAt": "2026-09-23", "documentaryReviewedAt": "2026-09-23", "documentaryStatus": "parcial", "notes": "Repositorio institucional confirma número y materia; publicaciones consultadas indican que entra en vigor con Registro Oficial. Se incorpora como candidata pendiente, con publishedAt null; verificar publicación y texto íntegro antes de aplicarla." },
+    "relatedSourceIds": ["lopdp", "spdp-gran-escala-2026"],
+    "obligations": [{ "id": "revisar-tratamiento-biometrico", "article": "Resolución SPDP-SPD-2026-0039-R; artículos y vigencia pendientes de cotejo", "sourceUrl": "https://spdp.gob.ec/resoluciones2/", "appliesWhenRules": ["usesBiometrics"], "requirement": { "es": "Mantener la norma como alerta para revisar el tratamiento biométrico; no ejecutar acciones como obligación vigente hasta confirmar publicación y disposiciones aplicables.", "en": "Keep this as an alert to review biometric processing; do not operationalize it as an effective duty until publication and applicable provisions are confirmed." }, "appliesWhen": { "es": "El sistema usa rasgos biométricos para identificación o autenticación de personas.", "en": "The system uses biometric traits to identify or authenticate people." }, "evidence": [{ "es": "Inventario de rasgos biométricos, finalidad, base jurídica, alternativa no biométrica, evaluación de impacto y estado de publicación de la resolución.", "en": "Inventory of biometric traits, purpose, legal basis, non-biometric alternative, impact assessment, and publication status of the resolution." }], "documentaryReviewedAt": "2026-09-23" }]
+  },
+  {
+    "id": "spdp-vulneraciones-2026",
+    "title": "Norma Técnica de Notificaciones de Vulneraciones de la Seguridad de los Datos Personales",
+    "type": "resolución",
+    "hierarchyLevel": "resolucion",
+    "issuer": "Superintendencia de Protección de Datos Personales",
+    "jurisdiction": "Ecuador",
+    "publishedAt": null,
+    "issuedAt": "2026-09-09",
+    "legalEffect": "vigencia_pendiente_publicacion",
+    "verifiedAt": "2026-09-23",
+    "status": "pendiente_verificacion",
+    "url": "https://spdp.gob.ec/resoluciones2/",
+    "topics": ["notificación de vulneraciones", "seguridad", "datos personales", "incidentes"],
+    "summary": "Resolución SPDP-SPD-2026-0040-R identificada en el portal oficial. Su disposición final condiciona la vigencia a publicación en Registro Oficial; al corte consultado no se confirmó dicha publicación.",
+    "sourceKind": "norma",
+    "history": [{ "type": "resolucion", "date": "2026-09-09", "title": "Expedición de Resolución SPDP-SPD-2026-0040-R", "sourceUrl": "https://spdp.gob.ec/resoluciones2/", "notes": "La referencia oficial confirma la resolución. Una fuente gremial indica que al corte no constaba su publicación en Registro Oficial; comprobar nuevamente antes de aplicarla." }],
+    "verification": { "urlCheckedAt": "2026-09-23", "documentaryReviewedAt": "2026-09-23", "documentaryStatus": "parcial", "notes": "Resolución emitida pero publicación en Registro Oficial no confirmada; publishedAt se mantiene null. Los plazos descritos por fuentes secundarias no se modelan como exigibles hasta revisar texto y vigencia." },
+    "relatedSourceIds": ["lopdp", "reglamento-lopdp"],
+    "obligations": [{ "id": "respuesta-incidente", "article": "Resolución SPDP-SPD-2026-0040-R; artículos/plazos y vigencia pendientes de cotejo", "sourceUrl": "https://spdp.gob.ec/resoluciones2/", "appliesWhenRules": ["hasSecurityIncident"], "requirement": { "es": "Activar el procedimiento interno de respuesta y evaluar los deberes legales de notificación bajo la LOPDP; tratar esta resolución como alerta hasta confirmar su publicación y vigencia.", "en": "Activate the internal response process and assess notification duties under the LOPDP; treat this resolution as an alert until its publication and effectiveness are confirmed." }, "appliesWhen": { "es": "Ocurre un incidente que pueda comprometer datos personales; la notificación concreta depende de la naturaleza, alcance y riesgo del evento.", "en": "An incident may compromise personal data; specific notification duties depend on its nature, scope and risk." }, "evidence": [{ "es": "Registro cronológico del incidente, datos y titulares afectados, evaluación de riesgo, contención, decisiones de notificación y comunicaciones enviadas.", "en": "Incident timeline, affected data and data subjects, risk assessment, containment, notification decisions, and communications sent." }], "documentaryReviewedAt": "2026-09-23" }]
+  },
+  {
+    "id": "spdp-ia-2026",
+    "title": "Norma General de Protección de Datos Personales en el Uso de Sistemas de Inteligencia Artificial",
+    "type": "resolución",
+    "hierarchyLevel": "resolucion",
+    "issuer": "Superintendencia de Protección de Datos Personales",
+    "jurisdiction": "Ecuador",
+    "publishedAt": "2026-03-10",
+    "verifiedAt": "2026-09-23",
+    "status": "pendiente_verificacion",
+    "url": "https://www.registroficial.gob.ec/registro-oficial-no-240-22/",
+    "documentUrl": "https://www.registroficial.gob.ec/registro-oficial-no-240-22/",
+    "officialGazette": { "number": "240", "edition": "Registro Oficial" },
+    "topics": ["inteligencia artificial", "datos personales", "privacidad", "seguridad", "encargados"],
+    "summary": "Norma sectorial de protección de datos que regula sistemas de IA cuando tratan datos personales. Fue reformada por la Resolución SPDP-SPD-2026-0037-R, publicada en Registro Oficial No. 373 el 21 de septiembre de 2026; el texto consolidado y alcance de cada obligación deben revisarse.",
+    "sourceKind": "norma",
+    "history": [
+      { "type": "publicacion", "date": "2026-03-10", "title": "Publicación de la Resolución SPDP-SPD-2026-0009-R", "officialGazette": "Registro Oficial No. 240", "sourceUrl": "https://www.registroficial.gob.ec/registro-oficial-no-240-22/" },
+      { "type": "reforma", "date": "2026-09-21", "title": "Reforma mediante Resolución SPDP-SPD-2026-0037-R", "officialGazette": "Registro Oficial No. 373", "sourceUrl": "https://www.registroficial.gob.ec/registro-oficial-no-373-21/", "notes": "El índice oficial confirma la reforma. Revisar el texto íntegro para delimitar responsables/encargados y fecha de efecto antes de traducirlo a obligaciones específicas." }
+    ],
+    "verification": { "urlCheckedAt": "2026-09-23", "documentaryReviewedAt": "2026-09-23", "documentaryStatus": "parcial", "notes": "Publicación original y reforma contrastadas con el Registro Oficial y el repositorio oficial SPDP. Mantener pendiente hasta revisar el texto consolidado y sus transitorios; no se eleva a vigente por una verificación automática." },
+    "relatedSourceIds": ["lopdp", "reglamento-lopdp", "spdp-gran-escala-2026"],
+    "obligations": [{ "id": "ia-tratamiento-datos", "article": "Resolución SPDP-SPD-2026-0009-R reformada por SPDP-SPD-2026-0037-R; artículos concretos pendientes de cotejo consolidado", "sourceUrl": "https://www.registroficial.gob.ec/registro-oficial-no-373-21/", "appliesWhenRules": ["usesAi", "processesPersonalData"], "requirement": { "es": "Verificar obligaciones de protección de datos aplicables al uso de IA y documentar roles, acceso/visibilidad/control de datos, riesgos y medidas; confirmar alcance en el texto consolidado.", "en": "Verify data-protection duties applicable to AI use and document roles, data access/visibility/control, risks and safeguards; confirm scope against the consolidated text." }, "appliesWhen": { "es": "Uso/desarrollo/provisión de IA que trata datos personales de titulares ecuatorianos, bajo las condiciones de alcance de la resolución reformada.", "en": "Use/development/provision of AI processing personal data of Ecuadorian data subjects, subject to the amended resolution's scope." }, "evidence": [{ "es": "Inventario del sistema de IA y tratamientos, mapa de roles responsable/encargado, categorías y flujos de datos, evaluación de riesgos/impacto y medidas de seguridad documentadas.", "en": "AI system and processing inventory, controller/processor role map, data categories and flows, risk/impact assessment, and documented safeguards." }], "documentaryReviewedAt": "2026-09-23" }]
+  },
+  {
+    "id": "ley-vigilancia-seguridad-privada-2024",
+    "title": "Ley Orgánica de Vigilancia y Seguridad Privada",
+    "type": "ley",
+    "hierarchyLevel": "ley_organica",
+    "issuer": "Asamblea Nacional del Ecuador",
+    "jurisdiction": "Ecuador",
+    "publishedAt": "2024-02-09",
+    "verifiedAt": "2026-09-23",
+    "status": "pendiente_verificacion",
+    "url": "https://www.registroficial.gob.ec/suplemento-al-registro-oficial-no-496/",
+    "topics": ["seguridad privada", "seguridad", "servicios digitales"],
+    "summary": "Marco para prestadores de vigilancia y seguridad privada. Puede ser pertinente para plataformas de monitoreo o prestadores del sector, sujeto a revisión del alcance y texto vigente.",
+    "officialGazette": { "number": "496", "edition": "Suplemento" },
+    "sourceKind": "norma",
+    "history": [
+      { "type": "publicacion", "date": "2024-02-09", "title": "Publicación de la Ley Orgánica de Vigilancia y Seguridad Privada", "sourceUrl": "https://www.registroficial.gob.ec/suplemento-al-registro-oficial-no-496/", "officialGazette": "Suplemento No. 496" },
+      { "type": "reforma", "date": "2024-02-28", "title": "Fe de erratas a la Ley Orgánica de Vigilancia y Seguridad Privada", "sourceUrl": "https://www.registroficial.gob.ec/suplemento-al-registro-oficial-no-507/", "officialGazette": "Suplemento No. 507" }
+    ],
+    "verification": { "urlCheckedAt": "2026-09-23", "documentaryReviewedAt": "2026-09-23", "documentaryStatus": "parcial", "notes": "Registro Oficial confirma publicación y posterior fe de erratas. Reformas, reglamento y alcance requieren revisión jurídica." },
+    "relatedSourceIds": [],
+    "obligations": [{ "id": "prestador-seguridad-privada", "article": "Obligaciones del prestador; artículos por determinar tras revisar el texto consolidado", "sourceUrl": "https://www.registroficial.gob.ec/suplemento-al-registro-oficial-no-496/", "appliesWhenRules": ["providesPrivateSecurity"], "requirement": { "es": "Determinar si el servicio constituye vigilancia o seguridad privada y verificar habilitación y controles sectoriales.", "en": "Determine whether the service constitutes private security and verify sector authorizations and controls." }, "appliesWhen": { "es": "Prestación efectiva de servicios de vigilancia o seguridad privada.", "en": "Actual provision of surveillance or private security services." }, "evidence": [{ "es": "Descripción del servicio, autorizaciones y contratos con clientes.", "en": "Service description, authorizations and customer contracts." }], "documentaryReviewedAt": "2026-09-23" }]
   }
 ]

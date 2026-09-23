@@ -1,139 +1,342 @@
 {
-  "generatedAt": "2026-09-07T15:46:57.152Z",
+  "generatedAt": "2026-09-23T15:59:09.080Z",
   "results": [
+    {
+      "id": "rgpd-ue",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "finalUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "officialHost": false,
+      "reachable": true,
+      "httpStatus": 200,
+      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "conclusion": "requiere_revision_juridica"
+    },
     {
       "id": "lopdp",
       "url": "https://www.registroficial.gob.ec/quinto-suplemento-al-registro-oficial-no-459/",
+      "finalUrl": "https://www.registroficial.gob.ec/quinto-suplemento-al-registro-oficial-no-459/",
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-07T15:46:53.932Z",
+      "checkedAt": "2026-09-23T15:59:02.774Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
       "id": "comercio-electronico",
       "url": "https://www.telecomunicaciones.gob.ec/wp-content/uploads/2020/07/LEY-DE-COMERCIO-ELECTRONICO-FIRMAS-Y.pdf",
+      "finalUrl": "https://www.telecomunicaciones.gob.ec/wp-content/uploads/2020/07/LEY-DE-COMERCIO-ELECTRONICO-FIRMAS-Y.pdf",
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-07T15:46:53.932Z",
+      "checkedAt": "2026-09-23T15:59:02.774Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
       "id": "propiedad-intelectual",
       "url": "https://www.derechosintelectuales.gob.ec/wp-content/uploads/downloads/2021/agosto/a_2_16_codigo_ingenios_agosto_2021.pdf",
+      "finalUrl": "https://www.derechosintelectuales.gob.ec/wp-content/uploads/downloads/2021/agosto/a_2_16_codigo_ingenios_agosto_2021.pdf",
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-07T15:46:53.932Z",
+      "checkedAt": "2026-09-23T15:59:02.774Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
       "id": "reglamento-lopdp",
       "url": "https://www.registroficial.gob.ec/tercer-suplemento-al-registro-oficial-no-435/",
+      "finalUrl": "https://www.registroficial.gob.ec/tercer-suplemento-al-registro-oficial-no-435/",
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-07T15:46:53.932Z",
+      "checkedAt": "2026-09-23T15:59:02.774Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
       "id": "reglamento-comercio-electronico",
-      "url": "https://www.telecomunicaciones.gob.ec/wp-content/uploads/2020/07/REGLAMENTO-A-LA-LEY-DE-COMERCIO-ELECTRONICO.pdf",
+      "url": "https://biblioteca.defensoria.gob.ec/handle/37000/2742",
+      "finalUrl": "https://biblioteca.defensoria.gob.ec/handle/37000/2742",
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-07T15:46:53.932Z",
+      "checkedAt": "2026-09-23T15:59:02.774Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
       "id": "telecomunicaciones",
-      "url": "https://www.asambleanacional.gob.ec/es/leyes-aprobadas?fecha=&leyesaprobadas=All&title=telecomunicaciones",
+      "url": "https://www.registroficial.gob.ec/tercer-suplemento-al-registro-oficial-no-439-5/",
+      "finalUrl": "https://www.registroficial.gob.ec/tercer-suplemento-al-registro-oficial-no-439-5/",
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-07T15:46:53.932Z",
+      "checkedAt": "2026-09-23T15:59:02.774Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
       "id": "transformacion-digital",
       "url": "https://www.registroficial.gob.ec/tercer-suplemento-al-registro-oficial-no-245/",
+      "finalUrl": "https://www.registroficial.gob.ec/tercer-suplemento-al-registro-oficial-no-245/",
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-07T15:46:53.932Z",
+      "checkedAt": "2026-09-23T15:59:02.774Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
       "id": "fintech",
       "url": "https://www.asambleanacional.gob.ec/sites/default/files/private/asambleanacional/filesasambleanacionalnameuid-29/Leyes%202013-2017/1436-nviteri/ro-215-2do-supl-22-12-2022.pdf",
+      "finalUrl": "https://www.asambleanacional.gob.ec/sites/default/files/private/asambleanacional/filesasambleanacionalnameuid-29/Leyes%202013-2017/1436-nviteri/ro-215-2do-supl-22-12-2022.pdf",
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-07T15:46:53.932Z",
+      "checkedAt": "2026-09-23T15:59:02.774Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
       "id": "defensa-consumidor",
       "url": "https://www.produccion.gob.ec/wp-content/uploads/2025/03/LEY-ORGANICA-DE-DEFENSA-DEL-CONSUMIDOR_2022_02_11.pdf",
+      "finalUrl": "https://www.produccion.gob.ec/wp-content/uploads/2025/03/LEY-ORGANICA-DE-DEFENSA-DEL-CONSUMIDOR_2022_02_11.pdf",
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-07T15:46:53.932Z",
+      "checkedAt": "2026-09-23T15:59:02.774Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
       "id": "coip-delitos-informaticos",
       "url": "https://www.registroficial.gob.ec/suplemento-al-registro-oficial-no-180-8/",
+      "finalUrl": "https://www.registroficial.gob.ec/suplemento-al-registro-oficial-no-180-8/",
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-07T15:46:53.932Z",
+      "checkedAt": "2026-09-23T15:59:02.774Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
       "id": "reforma-delitos-informaticos",
       "url": "https://www.registroficial.gob.ec/cuarto-suplemento-al-registro-oficial-no-526/",
+      "finalUrl": "https://www.registroficial.gob.ec/cuarto-suplemento-al-registro-oficial-no-526/",
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-07T15:46:53.932Z",
+      "checkedAt": "2026-09-23T15:59:02.774Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
       "id": "facturacion-electronica-sri",
       "url": "https://www.sri.gob.ec/facturacion-electronica",
+      "finalUrl": "https://www.sri.gob.ec/facturacion-electronica",
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-07T15:46:53.932Z",
+      "checkedAt": "2026-09-23T15:59:02.774Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
       "id": "spdp-transferencias-2025",
       "url": "https://spdp.gob.ec/resolucion_0024/",
+      "finalUrl": "https://spdp.gob.ec/resolucion_0024/",
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-07T15:46:53.932Z",
+      "checkedAt": "2026-09-23T15:59:02.774Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
       "id": "spdp-clausulas-contratos-2025",
       "url": "https://spdp.gob.ec/resolucion6/",
+      "finalUrl": "https://spdp.gob.ec/resolucion6/",
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-07T15:46:53.932Z",
+      "checkedAt": "2026-09-23T15:59:02.774Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
       "id": "lotaip",
       "url": "https://www.registroficial.gob.ec/segundo-suplemento-al-registro-oficial-no-245/",
+      "finalUrl": "https://www.registroficial.gob.ec/segundo-suplemento-al-registro-oficial-no-245/",
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-07T15:46:53.932Z",
+      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "spdp-transferencias-2026",
+      "url": "https://spdp.gob.ec/wp-content/uploads/2026/01/04.01.01-SPSP-SPD-2026-0004-R-Norma-general-de-transferencias-signed.pdf",
+      "finalUrl": "https://spdp.gob.ec/wp-content/uploads/2026/01/04.01.01-SPSP-SPD-2026-0004-R-Norma-general-de-transferencias-signed.pdf",
+      "officialHost": true,
+      "reachable": true,
+      "httpStatus": 200,
+      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "spdp-gran-escala-2026",
+      "url": "https://www.registroficial.gob.ec/suplemento-no-231/",
+      "finalUrl": "https://www.registroficial.gob.ec/suplemento-no-231/",
+      "officialHost": true,
+      "reachable": true,
+      "httpStatus": 200,
+      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "constitucion-republica",
+      "url": "https://www.asambleanacional.gob.ec/es/contenido/constitucion-de-la-republica-del-ecuador",
+      "finalUrl": "https://www.asambleanacional.gob.ec/es/contenido/constitucion-de-la-republica-del-ecuador",
+      "officialHost": true,
+      "reachable": true,
+      "httpStatus": 200,
+      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "codigo-trabajo",
+      "url": "https://www.asambleanacional.gob.ec/es/leyes-aprobadas?leyes-aprobadas=All&title=C%C3%B3digo+del+Trabajo",
+      "finalUrl": "https://www.asambleanacional.gob.ec/es/leyes-aprobadas?leyes-aprobadas=All&title=C%C3%B3digo+del+Trabajo",
+      "officialHost": true,
+      "reachable": true,
+      "httpStatus": 200,
+      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "codigo-tributario",
+      "url": "https://www.registroficial.gob.ec/",
+      "finalUrl": "https://www.registroficial.gob.ec/",
+      "officialHost": true,
+      "reachable": true,
+      "httpStatus": 200,
+      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "ley-companias",
+      "url": "https://www.registroficial.gob.ec/",
+      "finalUrl": "https://www.registroficial.gob.ec/",
+      "officialHost": true,
+      "reachable": true,
+      "httpStatus": 200,
+      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "marco-sector-financiero",
+      "url": "https://www.jprf.gob.ec/",
+      "officialHost": true,
+      "reachable": false,
+      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "marco-sector-salud",
+      "url": "https://www.salud.gob.ec/",
+      "finalUrl": "https://www.salud.gob.ec/",
+      "officialHost": true,
+      "reachable": true,
+      "httpStatus": 200,
+      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "marco-sector-educativo",
+      "url": "https://educacion.gob.ec/",
+      "finalUrl": "https://educacion.gob.ec/",
+      "officialHost": true,
+      "reachable": true,
+      "httpStatus": 200,
+      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "convenio-budapest-ciberdelincuencia",
+      "url": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=185",
+      "finalUrl": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=185",
+      "officialHost": false,
+      "reachable": false,
+      "httpStatus": 403,
+      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "ley-fortalecimiento-ciberseguridad",
+      "url": "https://www.registroficial.gob.ec/quinto-suplemento-no-290/",
+      "finalUrl": "https://www.registroficial.gob.ec/quinto-suplemento-no-290/",
+      "officialHost": true,
+      "reachable": true,
+      "httpStatus": 200,
+      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "nte-inen-iso-iec-22989-2022",
+      "url": "https://www.registroficial.gob.ec/quinto-suplemento-no-306/",
+      "finalUrl": "https://www.registroficial.gob.ec/quinto-suplemento-no-306/",
+      "officialHost": true,
+      "reachable": true,
+      "httpStatus": 200,
+      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "ley-organica-inteligencia-2025",
+      "url": "https://www.registroficial.gob.ec/cuarto-suplemento-no-57/",
+      "finalUrl": "https://www.registroficial.gob.ec/cuarto-suplemento-no-57/",
+      "officialHost": true,
+      "reachable": true,
+      "httpStatus": 200,
+      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "reforma-telecomunicaciones-2025",
+      "url": "https://www.registroficial.gob.ec/quinto-suplemento-no-59/",
+      "finalUrl": "https://www.registroficial.gob.ec/quinto-suplemento-no-59/",
+      "officialHost": true,
+      "reachable": true,
+      "httpStatus": 200,
+      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "spdp-biometria-2026",
+      "url": "https://spdp.gob.ec/resoluciones2/",
+      "finalUrl": "https://spdp.gob.ec/resoluciones2/",
+      "officialHost": true,
+      "reachable": true,
+      "httpStatus": 200,
+      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "spdp-vulneraciones-2026",
+      "url": "https://spdp.gob.ec/resoluciones2/",
+      "finalUrl": "https://spdp.gob.ec/resoluciones2/",
+      "officialHost": true,
+      "reachable": true,
+      "httpStatus": 200,
+      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "spdp-ia-2026",
+      "url": "https://www.registroficial.gob.ec/registro-oficial-no-240-22/",
+      "finalUrl": "https://www.registroficial.gob.ec/registro-oficial-no-240-22/",
+      "officialHost": true,
+      "reachable": true,
+      "httpStatus": 200,
+      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "conclusion": "requiere_revision_juridica"
+    },
+    {
+      "id": "ley-vigilancia-seguridad-privada-2024",
+      "url": "https://www.registroficial.gob.ec/suplemento-al-registro-oficial-no-496/",
+      "finalUrl": "https://www.registroficial.gob.ec/suplemento-al-registro-oficial-no-496/",
+      "officialHost": true,
+      "reachable": true,
+      "httpStatus": 200,
+      "checkedAt": "2026-09-23T15:59:02.774Z",
       "conclusion": "requiere_revision_juridica"
     }
   ]

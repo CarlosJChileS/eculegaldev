@@ -61,7 +61,7 @@ it('serves tools, resource templates and prompts over real stdio from another wo
     expect(tools.tools).toHaveLength(13);
     expect(tools.tools.find((tool: any) => tool.name === 'auditar_repositorio').inputSchema.properties.language.enum).toEqual(['es', 'en']);
     const call = (name: string, args: object) => request('tools/call', { name, arguments: args });
-    const search = await call('buscar_normativa', { query: 'lopdp', language: 'en' });
+    const search = await call('buscar_normativa', { query: 'Ley Orgánica de Protección de Datos Personales', language: 'en' });
     expect(JSON.parse(search.content[0].text).results[0].id).toBe('lopdp');
     for (const name of ['consultar_obligacion', 'verificar_vigencia']) {
       const result = await call(name, { id: 'lopdp', language: 'en' });
@@ -72,6 +72,24 @@ it('serves tools, resource templates and prompts over real stdio from another wo
       expect(result.isError).not.toBe(true);
       expect(JSON.parse(result.content[0].text).disclaimer).toContain('Preliminary guidance');
     }
+    const project = await call('evaluar_proyecto', { name: 'Tienda Demo', sellsOnline: true, handlesPayments: true, processesPersonalData: true, sectors: [] });
+    const projectResult = JSON.parse(project.content[0].text);
+    expect(projectResult.projectTypes).toContain('comercio_electronico');
+    expect(projectResult.applicableReferences.some((source: any) => source.id === 'defensa-consumidor')).toBe(true);
+    expect(projectResult.obligations.some((item: any) => item.applicabilityStatus === 'condicional')).toBe(true);
+    expect(projectResult.obligations.find((item: any) => item.normId === 'lopdp')?.evidence.length).toBeGreaterThan(0);
+    const telecom = await call('evaluar_proyecto', { name: 'Operador', operatesTelecomNetwork: true, sectors: ['telecomunicaciones'] });
+    const telecomResult = JSON.parse(telecom.content[0].text);
+    expect(telecomResult.applicableReferences.some((source: any) => source.id === 'reforma-telecomunicaciones-2025')).toBe(true);
+    const biometric = await call('evaluar_proyecto', { name: 'Acceso', processesPersonalData: true, usesBiometrics: true, largeScaleProcessing: true, hasSecurityIncident: true });
+    const biometricResult = JSON.parse(biometric.content[0].text);
+    expect(biometricResult.obligations.some((item: any) => item.normId === 'spdp-biometria-2026')).toBe(true);
+    expect(biometricResult.obligations.some((item: any) => item.normId === 'spdp-gran-escala-2026')).toBe(true);
+    expect(biometricResult.obligations.some((item: any) => item.normId === 'spdp-vulneraciones-2026')).toBe(true);
+    const digital = await call('evaluar_proyecto', { name: 'Plataforma digital', providesDigitalService: true });
+    const digitalResult = JSON.parse(digital.content[0].text);
+    expect(digitalResult.obligations.find((item: any) => item.id.endsWith('prestador-digital-responsabilidad-compartida'))?.applicabilityStatus).toBe('aplicable');
+    expect(digitalResult.obligations.find((item: any) => item.id.endsWith('alcance-critico-esencial'))?.applicabilityStatus).toBe('condicional');
     const audit = await call('auditar_repositorio', { path: root, language: 'en' });
     const report = JSON.parse(audit.content[0].text);
     const finding = report.findings.find((item: any) => item.ruleId === 'insecure-http');
@@ -94,6 +112,8 @@ it('serves tools, resource templates and prompts over real stdio from another wo
     expect(templates.resourceTemplates[0].uriTemplate).toBe('legal://normativa/{id}');
     const index = await request('resources/read', { uri: 'legal://normativa' });
     expect(JSON.parse(index.contents[0].text).length).toBeGreaterThan(0);
+    const indexSources = JSON.parse(index.contents[0].text);
+    expect(indexSources.find((source: any) => source.id === 'convenio-budapest-ciberdelincuencia')).toMatchObject({ hierarchyLevel: 'tratado_internacional', status: 'vigente' });
     const resource = await request('resources/read', { uri: 'legal://normativa/lopdp' });
     expect(JSON.parse(resource.contents[0].text).id).toBe('lopdp');
     const prompt = await request('prompts/get', { name: 'revision-privacidad', arguments: { project: 'Demo' } });

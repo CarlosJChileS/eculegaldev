@@ -17,9 +17,11 @@ export function consultObligations(source: LegalSource, language: Language) {
 }
 export function legalVerification(source: LegalSource, language: Language) {
   return {
-    id: source.id, title: source.title, status: source.status, verifiedAt: source.verifiedAt,
+    id: source.id, title: source.title, status: source.status, legalEffect: source.legalEffect ?? (source.status === 'vigente' ? 'vigente_documental' : 'publicada_pendiente_revision'), verifiedAt: source.verifiedAt,
     url: source.url, language, verification: source.verification ?? {},
-    legalStatusConfirmed: Boolean(source.verification?.legalReviewedAt && source.verification?.reviewer),
+    legalStatusConfirmed: Boolean(source.verification?.statusBasis === 'revision_juridica_humana' && source.verification?.legalReviewedAt && source.verification?.reviewerType === 'humana' && source.verification?.reviewer && !/codex|asistida|autom[aá]tica|automated/i.test(source.verification.reviewer)),
+    officialDocumentaryBasis: source.verification?.statusBasis === 'documental_oficial',
+    humanLegalReviewCompleted: Boolean(source.verification?.statusBasis === 'revision_juridica_humana' && source.verification?.reviewerType === 'humana'),
     history: source.history ?? [], relatedSourceIds: source.relatedSourceIds ?? [],
     warning: localized(language, 'Consulta del registro local; no verifica vigencia en tiempo real.', 'Local catalog lookup; does not verify legal status in real time.'),
     disclaimer: disclaimers[language],

@@ -14,7 +14,8 @@ it('requires evidence and distinguishes documented obligations from unknown cove
   expect(consultObligations(catalog.get('facturacion-electronica-sri')!, 'es').coverage).toBe('parcial');
   for (const source of catalog.all()) {
     const verified = legalVerification(source, 'es');
-    if (!verified.legalStatusConfirmed) expect(source.status).toBe('pendiente_verificacion');
+    if (source.status !== 'pendiente_verificacion') expect(verified.legalStatusConfirmed || verified.officialDocumentaryBasis).toBe(true);
+    if (source.id === 'convenio-budapest-ciberdelincuencia') expect(verified).toMatchObject({ legalStatusConfirmed: false, officialDocumentaryBasis: true, humanLegalReviewCompleted: false });
   }
 });
 

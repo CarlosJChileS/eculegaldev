@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T15:59:32.161Z",
-  "checkedAt": "2026-09-23",
+  "generatedAt": "2026-09-28T14:04:15.822Z",
+  "checkedAt": "2026-09-28",
   "warning": "Los indicios automáticos no determinan vigencia jurídica. Requieren revisión humana.",
   "sources": [
     {
@@ -12,22 +12,19 @@
         {
           "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
           "reachable": true,
-          "status": 200,
+          "status": 202,
           "finalUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
           "officialHost": false
         },
         {
           "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679",
           "reachable": true,
-          "status": 200,
+          "status": 202,
           "finalUrl": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679",
           "officialHost": false
         }
       ],
-      "indicators": [
-        "indicio_reforma:https://eur-lex.europa.eu/eli/reg/2016/679/oj",
-        "indicio_derogacion:https://eur-lex.europa.eu/eli/reg/2016/679/oj"
-      ],
+      "indicators": [],
       "missing": [
         "legalReviewedAt",
         "reviewer",
@@ -628,15 +625,12 @@
       "evidence": [
         {
           "url": "https://www.salud.gob.ec/",
-          "reachable": true,
-          "status": 200,
-          "finalUrl": "https://www.salud.gob.ec/",
-          "officialHost": true
+          "reachable": false,
+          "officialHost": true,
+          "error": "fetch failed"
         }
       ],
-      "indicators": [
-        "indicio_reforma:https://www.salud.gob.ec/"
-      ],
+      "indicators": [],
       "missing": [
         "legalReviewedAt",
         "reviewer",
@@ -654,10 +648,9 @@
       "evidence": [
         {
           "url": "https://educacion.gob.ec/",
-          "reachable": true,
-          "status": 200,
-          "finalUrl": "https://educacion.gob.ec/",
-          "officialHost": true
+          "reachable": false,
+          "officialHost": true,
+          "error": "fetch failed"
         }
       ],
       "indicators": [],
@@ -845,16 +838,12 @@
       "evidence": [
         {
           "url": "https://spdp.gob.ec/resoluciones2/",
-          "reachable": true,
-          "status": 200,
-          "finalUrl": "https://spdp.gob.ec/resoluciones2/",
-          "officialHost": true
+          "reachable": false,
+          "officialHost": true,
+          "error": "The operation was aborted due to timeout"
         }
       ],
-      "indicators": [
-        "indicio_reforma:https://spdp.gob.ec/resoluciones2/",
-        "indicio_derogacion:https://spdp.gob.ec/resoluciones2/"
-      ],
+      "indicators": [],
       "missing": [
         "legalReviewedAt",
         "reviewer",
@@ -873,16 +862,12 @@
       "evidence": [
         {
           "url": "https://spdp.gob.ec/resoluciones2/",
-          "reachable": true,
-          "status": 200,
-          "finalUrl": "https://spdp.gob.ec/resoluciones2/",
-          "officialHost": true
+          "reachable": false,
+          "officialHost": true,
+          "error": "The operation was aborted due to timeout"
         }
       ],
-      "indicators": [
-        "indicio_reforma:https://spdp.gob.ec/resoluciones2/",
-        "indicio_derogacion:https://spdp.gob.ec/resoluciones2/"
-      ],
+      "indicators": [],
       "missing": [
         "legalReviewedAt",
         "reviewer",

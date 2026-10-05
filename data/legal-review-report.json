@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T15:59:32.161Z",
-  "checkedAt": "2026-09-23",
+  "generatedAt": "2026-10-05T14:49:22.905Z",
+  "checkedAt": "2026-10-05",
   "warning": "Los indicios automáticos no determinan vigencia jurídica. Requieren revisión humana.",
   "sources": [
     {
@@ -12,22 +12,19 @@
         {
           "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
           "reachable": true,
-          "status": 200,
+          "status": 202,
           "finalUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
           "officialHost": false
         },
         {
           "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679",
           "reachable": true,
-          "status": 200,
+          "status": 202,
           "finalUrl": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32016R0679",
           "officialHost": false
         }
       ],
-      "indicators": [
-        "indicio_reforma:https://eur-lex.europa.eu/eli/reg/2016/679/oj",
-        "indicio_derogacion:https://eur-lex.europa.eu/eli/reg/2016/679/oj"
-      ],
+      "indicators": [],
       "missing": [
         "legalReviewedAt",
         "reviewer",
@@ -628,15 +625,12 @@
       "evidence": [
         {
           "url": "https://www.salud.gob.ec/",
-          "reachable": true,
-          "status": 200,
-          "finalUrl": "https://www.salud.gob.ec/",
-          "officialHost": true
+          "reachable": false,
+          "officialHost": true,
+          "error": "fetch failed"
         }
       ],
-      "indicators": [
-        "indicio_reforma:https://www.salud.gob.ec/"
-      ],
+      "indicators": [],
       "missing": [
         "legalReviewedAt",
         "reviewer",
@@ -654,10 +648,9 @@
       "evidence": [
         {
           "url": "https://educacion.gob.ec/",
-          "reachable": true,
-          "status": 200,
-          "finalUrl": "https://educacion.gob.ec/",
-          "officialHost": true
+          "reachable": false,
+          "officialHost": true,
+          "error": "fetch failed"
         }
       ],
       "indicators": [],
@@ -701,7 +694,7 @@
           "url": "https://www.cancilleria.gob.ec/2024/12/13/deposito-del-instrumento-de-ratificacion-del-convenio-de-budapest/",
           "reachable": false,
           "officialHost": true,
-          "error": "fetch failed"
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://www.coe.int/en/web/cybercrime/-/convention-on-cybercrime-ecuador-becomes-the-77th-party-and-peru-signs-the-second-protocol-on-electronic-evidence",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T15:59:09.080Z",
+  "generatedAt": "2026-10-05T14:49:00.584Z",
   "results": [
     {
       "id": "rgpd-ue",
@@ -7,8 +7,8 @@
       "finalUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
       "officialHost": false,
       "reachable": true,
-      "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "httpStatus": 202,
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -18,7 +18,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -28,7 +28,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -38,7 +38,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -48,7 +48,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -58,7 +58,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -68,7 +68,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -78,7 +78,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -88,7 +88,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -98,7 +98,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -108,7 +108,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -118,7 +118,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -128,7 +128,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -138,7 +138,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -148,7 +148,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -158,7 +158,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -168,7 +168,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -178,7 +178,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -188,7 +188,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -198,7 +198,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -208,7 +208,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -218,7 +218,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -226,27 +226,23 @@
       "url": "https://www.jprf.gob.ec/",
       "officialHost": true,
       "reachable": false,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
       "id": "marco-sector-salud",
       "url": "https://www.salud.gob.ec/",
-      "finalUrl": "https://www.salud.gob.ec/",
       "officialHost": true,
-      "reachable": true,
-      "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "reachable": false,
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
       "id": "marco-sector-educativo",
       "url": "https://educacion.gob.ec/",
-      "finalUrl": "https://educacion.gob.ec/",
       "officialHost": true,
-      "reachable": true,
-      "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "reachable": false,
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -256,7 +252,7 @@
       "officialHost": false,
       "reachable": false,
       "httpStatus": 403,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -266,7 +262,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -276,7 +272,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -286,7 +282,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -296,7 +292,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -306,7 +302,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -316,7 +312,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -326,7 +322,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     },
     {
@@ -336,7 +332,7 @@
       "officialHost": true,
       "reachable": true,
       "httpStatus": 200,
-      "checkedAt": "2026-09-23T15:59:02.774Z",
+      "checkedAt": "2026-10-05T14:48:50.039Z",
       "conclusion": "requiere_revision_juridica"
     }
   ]
